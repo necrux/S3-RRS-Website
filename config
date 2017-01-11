@@ -1,0 +1,17 @@
+[settings]
+path=
+my_bucket=
+my_queue=
+sns_arn=
+sns_subject=
+
+[metadata]
+StorageClass=
+ACL=
+WebsiteRedirectLocation=
+CacheControl=
+#Number of days to keep.
+Expires=
+
+[custom]
+#Use this section to send any custom metadata with the upload.

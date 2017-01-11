@@ -5,4 +5,4 @@ This script will check a given SQS queue for RRS and deleted object events. If a
 
 If failures are detected, a message with the original message and error is sent to a specificed SNS ARN.
 
-The script relies on usre provided input in the 'config' file, as well as AWS credentials located in ~/.aws/crdentials.
+The script relies on usre provided input in the 'config' file, as well as AWS credentials located in ~/.aws/credentials.

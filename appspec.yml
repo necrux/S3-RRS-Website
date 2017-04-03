@@ -3,3 +3,15 @@ os: linux
 files:
   - source: *
     destination: /home/centos
+hooks:
+  BeforeInstall:
+    - location: test_script.sh 
+  AfterInstall:
+    - location: test_script.sh 
+      timeout: 1000
+  ApplicationStart:
+    - location: test_script.sh 
+      timeout: 1000
+  ValidateService:
+    - location: test_script.sh 
+      timeout: 1000
